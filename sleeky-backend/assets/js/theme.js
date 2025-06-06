@@ -134,7 +134,7 @@ $( document ).ready(function() {
         // Update footer
         var content = $(this).html();
         var i = 77
-        var updated_content = "Running on" + content.slice(13, i) + '& <a href="https://sleeky.flynntes.com/" title="Sleeky">Sleeky</a>' + content.slice(i-1)
+        var updated_content = "Running on" + content.slice(13, i) + ' & <a href="https://sleeky.flynntes.com/" title="Sleeky">Sleeky</a>' + content.slice(i-1)
         $(this).html(updated_content);
       }
   });

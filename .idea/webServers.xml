@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="661cef31-6617-490f-9571-e9295cfd32d9" name="test.inter.fyi" url="http://test.inter.fyi/admin">
+        <fileTransfer accessType="SFTP" host="test.inter.fyi" port="22" sshConfigId="6ac15cdd-d899-47cf-9079-efb2ff1fbe9e" sshConfig="devel@test.inter.fyi:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
