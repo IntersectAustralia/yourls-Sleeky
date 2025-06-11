@@ -9,6 +9,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="b5fcfd42-3e66-4b89-9809-5aaf7531f3ba" name="inter.fyi" url="http://inter.fyi/admin">
+        <fileTransfer accessType="SFTP" host="inter.fyi" port="22" sshConfigId="22e28fb5-ef74-4a06-bc1b-ea93b803c519" sshConfig="devel@inter.fyi:22" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

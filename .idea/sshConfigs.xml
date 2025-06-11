@@ -3,6 +3,9 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig host="test.inter.fyi" id="6ac15cdd-d899-47cf-9079-efb2ff1fbe9e" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="devel" useOpenSSHConfig="true" />
+      <sshConfig host="inter.fyi" id="22e28fb5-ef74-4a06-bc1b-ea93b803c519" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" customName="devel@inter.fyi:22" nameFormat="CUSTOM" username="devel" useOpenSSHConfig="true">
+        <option name="customName" value="devel@inter.fyi:22" />
+      </sshConfig>
     </configs>
   </component>
 </project>

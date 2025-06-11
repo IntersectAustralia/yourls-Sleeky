@@ -3,6 +3,13 @@
   <component name="PublishConfigData" serverName="test.inter.fyi" remoteFilesAllowedToDisappearOnAutoupload="false" confirmBeforeUploading="false">
     <option name="confirmBeforeUploading" value="false" />
     <serverData>
+      <paths name="inter.fyi">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/yourls/user/plugins/sleeky-backend" local="$PROJECT_DIR$/sleeky-backend" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="test.inter.fyi">
         <serverdata>
           <mappings>
